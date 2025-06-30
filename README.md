@@ -22,7 +22,7 @@ Includes:
 - **Data Extraction**: Scraped population data using `pandas.read_html()` from Wikipedia
 - **Cleaning**: Removed unwanted characters, converted populations to integers
 - **Merging**: Combined Tier-1 and Tier-2 datasets
-- **Transformation**: Calculated `growth_rate` column in %
+- **Transformation**: Calculated `growth_percent` column in %
 - **Loaded to SQL Server**
 - **Analysis**: 
   - Top 10 fastest-growing cities
